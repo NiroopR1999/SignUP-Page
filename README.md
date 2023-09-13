@@ -122,5 +122,3 @@ Contributions are welcome! If you find any issues or have suggestions, please op
 ## License
 
 This project is licensed under the [ISC License](LICENSE).
-
-```
