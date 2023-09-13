@@ -124,5 +124,3 @@ Contributions are welcome! If you find any issues or have suggestions, please op
 This project is licensed under the [ISC License](LICENSE).
 
 ```
-
-You can copy and paste this content into a `README.md` file in the root directory of your GitHub repository. Don't forget to replace placeholders like `yourusername` and customize it further based on your project's specific details.
