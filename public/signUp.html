@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/signUp.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Centered container for the entire content -->
+    <div id="center_div">
+        <!-- Image container -->
+        <div id="img_container">
+            <!-- Image for the form -->
+            <img src="./img/img.svg" alt="img" class="form_img">
+        </div>
+        <!-- Form container -->
+        <div id="form_continer">
+            <!-- Sign-up form -->
+            <form action="/signup" method="post" id="signup_form">
+                <!-- Title for the sign-up section -->
+                <div id="signup_text">
+                    <h2>Sign Up</h2>
+                </div>
+
+                <!-- Container for user input fields -->
+                <div class="inputs_container">
+                    <!-- Input field for full name -->
+                    <input type="text" name="userName" id="user_name" class="user_inputs" placeholder="Full name" required>
+                    <!-- Input field for email -->
+                    <input type="email" name="userEmail" id="user_email" class="user_inputs" placeholder="Email" required>
+                    <!-- Input field for password -->
+                    <input type="password" name="userPassword1" id="user_password1" class="user_inputs"
+                        placeholder="Password" required>
+                    <!-- Input field to re-type password -->
+                    <input type="password" name="userPassword2" id="user_password2" class="user_inputs"
+                        placeholder="Re-type password" required>
+                </div>
+
+                <!-- User agreement section -->
+                <div class="user_agreement">
+                    <!-- Checkbox for user agreement -->
+                    <input type="checkbox" name="checkAgreement" id="user_check">
+                    <!-- Text explaining user agreement -->
+                    <span>Creating an account means you're okay with our <a href="#">Terms and Conditions</a> and our <a
+                            href="#">Privacy Policy</a>.</span>
+                </div>
+                <!-- Submit button for registration -->
+                <button type="submit" id="submit_btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
